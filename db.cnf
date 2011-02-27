@@ -1,0 +1,5 @@
+[client]
+database = moovy_dev
+user = moovy
+password = mimiparty11255
+default-character-set = utf8
