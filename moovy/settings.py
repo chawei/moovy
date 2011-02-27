@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('david hsu', 'd@detourlab.com'),
+    #('david hsu', 'd@detourlab.com'),
 )
 
 MANAGERS = ADMINS
