@@ -329,7 +329,7 @@ def symlink_current_release():
 def migrate():
     "Update the database"
     require('project_name')
-    run('cd %(path)s/releases/current/;  ../../../bin/python manage.py syncdb --noinput' % env, pty=True)
+    run('cd %(path)s/releases/current;  ../../bin/python manage.py syncdb --noinput' % env, pty=True)
     
 def restart_webserver():
     "Restart the web server"
