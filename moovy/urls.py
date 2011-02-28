@@ -5,6 +5,7 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+    (r'^movies/$', 'movies.views.index'),
     # Example:
     # (r'^moovy/', include('moovy.foo.urls')),
 
