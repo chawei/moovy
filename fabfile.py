@@ -322,6 +322,7 @@ def symlink_current_release():
         run('rm releases/previous; mv releases/current releases/previous;')
         run('ln -s %(release)s releases/current' % env)
         run('ln -s %(path)s/shared/db.cnf releases/current/db.cnf' % env)
+        run('ln -s %(path)s/shared/vhost.conf releases/current/vhost.conf' % env)
         if env.use_photologue:
             run('cd releases/current/%(project_name)s/static; rm -rf photologue; ln -s %(path)s/photologue;' % env, pty=True)
     
