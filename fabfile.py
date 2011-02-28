@@ -264,7 +264,7 @@ def deploy():
     env.release = time.strftime('%Y%m%d%H%M%S')
     upload_tar_from_git()
     install_requirements()
-    install_site()
+    #install_site() # only the first time
     symlink_current_release()
     migrate()
     restart_webserver()
