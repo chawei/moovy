@@ -12,9 +12,9 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'moovy_dev',
-        'USER': 'moovy',
-        'PASSWORD': 'mimiparty11255',
+        'OPTIONS': {
+          'read_default_file': '../db.cnf',
+        },
     }
 }
 
