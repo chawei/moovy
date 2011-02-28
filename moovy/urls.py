@@ -1,4 +1,5 @@
 from django.conf.urls.defaults import *
+from moovy.movies import views
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -7,7 +8,7 @@ from django.conf.urls.defaults import *
 urlpatterns = patterns('',
     (r'^movies/$', 'movies.views.index'),
     # Example:
-    # (r'^moovy/', include('moovy.foo.urls')),
+    # (r'^moovy/', include('movies.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
