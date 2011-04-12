@@ -1,0 +1,17 @@
+INSERT INTO movies_area (id,chtName,enName) VALUES(0,'台北','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(1,'基隆','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(2,'桃園','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(3,'新竹','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(4,'苗栗','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(5,'台中','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(6,'彰化','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(7,'雲林','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(8,'南投','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(9,'嘉義','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(10,'台南','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(11,'高雄','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(12,'宜蘭','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(13,'花蓮','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(14,'台東','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(15,'屏東','');
+INSERT INTO movies_area (id,chtName,enName) VALUES(16,'澎湖','');
