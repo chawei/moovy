@@ -323,6 +323,9 @@ def symlink_current_release():
         run('ln -s %(release)s releases/current' % env)
         run('ln -s %(path)s/shared/db.cnf releases/current/db.cnf' % env)
         run('ln -s %(path)s/shared/vhost.conf releases/current/vhost.conf' % env)
+	run('mkdir releases/current/moovy/movies/sql')
+	run('ln -s %(path)s/shared/area.sql releases/current/moovy/movies/sql/area.sql' % env)
+	run('ln -s %(path)s/shared/theater.sql releases/current/moovy/movies/sql/theater.sql' % env)
         if env.use_photologue:
             run('cd releases/current/%(project_name)s/static; rm -rf photologue; ln -s %(path)s/photologue;' % env, pty=True)
     

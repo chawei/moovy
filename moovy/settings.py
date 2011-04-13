@@ -1,12 +1,12 @@
 # Django settings for moovy project.
 import os.path
 
-#DEBUG = True
-DEBUG = False
+DEBUG = True
+#DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('david hsu', 'd@detourlab.com'),
+#    ('david hsu', 'd@detourlab.com'),
     ('Ajiow Huang', 'ajiowh@gmail.com'),
 )
 
